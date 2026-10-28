@@ -1,0 +1,77 @@
+# dependencies
+node_modules/
+
+# environment
+.env
+.env.*
+!.env.example
+
+# build
+dist/
+build/
+
+# logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# generated
+/generated/prisma
+
+# Prisma
+src/generated/prisma/
+
+# cache
+.cache/
+.temp/
+tmp/
+
+# coverage
+coverage/
+
+# typescript
+*.tsbuildinfo
+/src/generated/prisma
+
+# Ignore files inside src subfolders
+src/*
+!src/.gitkeep
+
+prisma/*
+!prisma/.gitkeep
+
+/src/configs/*
+!/src/configs/.gitkeep
+
+/src/controllers/*
+!/src/controllers/.gitkeep
+
+/src/generated/*
+!/src/generated/.gitkeep
+
+/src/libs/*
+!/src/libs/.gitkeep
+
+/src/middlewares/*
+!/src/middlewares/.gitkeep
+
+/src/models/*
+!/src/models/.gitkeep
+
+/src/routes/*
+!/src/routes/.gitkeep
+
+/src/services/*
+!/src/services/.gitkeep
+
+/src/tests/*
+!/src/tests/.gitkeep
+
+/src/utils/*
+!/src/utils/.gitkeep
