@@ -32,6 +32,7 @@ npx tsc --init
 ```bash
 # devDependencies
 npm install -D prisma@7
+
 # runtime
 npm install @prisma/client@7
 
